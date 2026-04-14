@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-void main(){
+
+void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -10,16 +11,23 @@ void main(){
               colors: [
                 Colors.white,
                 Colors.blue,
-                Colors.red
-            ],
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
+                Colors.red,
+              ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+            ),
+          ),
+          child: Center(
+            child: Text(
+              "Hello world!",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 32,
+              ),
+            ),
           ),
         ),
-        child: Center(
-          child: Text("Hello world!"))),
       ),
     ),
-);
-
+  );
 }
