@@ -1,17 +1,45 @@
-# first_flutter_app
+# Лабораторная работа №2: Знакомство с Flutter
 
-A new Flutter project.
+Изучение основ кроссплатформенного UI-фреймворка Flutter: создание первого проекта, работа с виджетами, управление состоянием, стилизация интерфейса и сборка под Web.
 
-## Getting Started
+## Автор
 
-This project is a starting point for a Flutter application.
+- **ФИО:** Тимонин И.В
+- **Группа:** ИСП-233
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter 3.41.2 (stable)
+- Dart 3.11.0
+- Платформа: Web (Chrome)
+- IDE: Visual Studio Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![Итоговый экран приложения](first_flutter_app/img/step9_Timonin.png)
+
+## Как запустить
+
+1. Клонируйте репозиторий:
+```bash
+git clone <URL_вашего_репозитория>
+cd Flutter_Lab2
+```
+2. Перейдите в папку основного проекта:
+```bash
+cd first_flutter_app
+```
+3. Установите зависимости:
+```bash
+flutter pub get
+```
+4. Запустите приложение в Chrome:
+```bash
+flutter run -d chrome
+```
+
+## Что изученно
+
+- Установка и проверка окружения Flutter (flutter doctor, flutter devices).
+- Создание проекта с нуля и его запуск в браузере Chrome
+- Использование Flutter DevTools и Flutter Inspector.
